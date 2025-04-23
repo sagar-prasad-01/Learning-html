@@ -1,0 +1,19 @@
+body{
+    background-color: aqua;
+    color: brown;
+}
+.head1{
+    background-color: rgb(157, 163, 161);
+}
+.head2{
+
+    color: blueviolet;
+    font-size: 50px;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: aliceblue;
+    text-decoration-style: dotted;
+    word-spacing: 30px;
+    letter-spacing: 20px ;
+    text-shadow:-3px 4px 5px black;
+}
