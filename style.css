@@ -1,12 +1,12 @@
 body{
-    background-color: aqua;
-    color: brown;
+    
+    color: rgb(19, 7, 7);
 }
 .head1{
     background-color: rgb(157, 163, 161);
 }
 .head2{
-
+ 
     color: blueviolet;
     font-size: 50px;
     font-style: italic;
@@ -16,4 +16,11 @@ body{
     word-spacing: 30px;
     letter-spacing: 20px ;
     text-shadow:-3px 4px 5px black;
+    text-align: center;
+}
+.paragraph{
+    font-weight: bold;
+}
+.head3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
