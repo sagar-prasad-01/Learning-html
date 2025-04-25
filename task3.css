@@ -1,0 +1,18 @@
+.parent{
+    background-color: rgb(16, 111, 142);
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+}
+.div1{
+    color: white;
+    margin-top: 80px;
+    font-size: larger;
+}
+button{
+background-color: orangered;
+}
+.div2{
+    margin-top: 80px;
+   
+}
