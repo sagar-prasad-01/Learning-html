@@ -2,17 +2,13 @@
     background-color: rgb(16, 111, 142);
     display: flex;
     justify-content: space-around;
-    height: 600px;
+    align-items: center;
 }
-.div1{
-    color: white;
-    margin-top: 80px;
-    font-size: larger;
-}
-button{
+
+
+ .parent .div1 button{   
 background-color: orangered;
+padding:10px ;
+color: white;
 }
-.div2{
-    margin-top: 80px;
-   
-}
+
