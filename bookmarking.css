@@ -1,0 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
+.head{
+    background-color: aqua;
+    color: azure;
+}
+.ghosticon {background-color: aqua;
+    color: brown;
+    font-size: larger;
+
+}
