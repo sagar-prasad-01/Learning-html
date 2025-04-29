@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0%;
+}
+nav{
+    background-color:aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    
+    
+    
+    
+    
+}
+nav .div1 .ul1{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-size: medium;
+
+    }
+   
+    
+nav .div2 .ul2{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-size: large;
+}
+
+nav .div1 li{
+    background-color: rgb(245, 245, 247);
+    padding: 10px;
+    border-radius: 30px;
+
+}
+.loveicon{
+  
+    
+    font-size: 25px;
+}
+.carticon{
+font-size: 25px;
+}

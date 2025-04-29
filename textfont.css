@@ -1,0 +1,18 @@
+.head{
+    font-family: "Tagesschrift", system-ui;
+}
+.head1{
+    font-family: "Comic Relief", system-ui;
+}
+.parent{
+    background-color: aqua;
+    height: 500px;
+    
+}
+.child{
+    background-color: rgb(221, 110, 19);
+    height: 100px;
+    width: 160px;
+    position: absolute;
+    top: 20px;
+}
