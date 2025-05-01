@@ -1,0 +1,52 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+}
+.navbar .top_navbar{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:white;
+    height: 50px;
+
+}
+ .navbar  .top_navbar .left_list{
+    display: flex;  
+  gap: 40px;
+
+}
+.navbar  .top_navbar .left_list li{
+    color: black;
+}
+ .navbar .right_list{
+    display: flex;
+    gap: 30px;
+   
+
+}
+.navbar .right_list .search_bar{
+    width: 190px;
+    background-color: rgb(228, 227, 227);
+    border: 1px solid rgb(241, 235, 235);
+}
+.navbar .right_list .bagicon{
+    color: black;
+}
+.navbar .bottom_navbar{
+    align-items: center;
+    height: 50px;
+    background-color: white;
+}
+.navbar .bottom_navbar .bottom_list{
+    display: flex;
+    padding-top: 15px;
+    gap: 80px;
+    font-size:large;
+   
+    
+}
+.bottom_list li{
+    color: black;
+}
