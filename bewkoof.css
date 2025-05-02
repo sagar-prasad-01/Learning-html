@@ -1,7 +1,11 @@
 *{
     list-style: none;
-    text-decoration: none;
+    text-decoration:none;
     margin: 0;
+}
+.navbar{
+    position: sticky;
+    top: 0;
 }
 .navbar .top_navbar{
     align-items: center;
@@ -9,7 +13,8 @@
     justify-content: space-around;
     align-items: center;
     background-color:white;
-    height: 50px;
+    height: 65px;
+    
 
 }
  .navbar  .top_navbar .left_list{
@@ -17,7 +22,7 @@
   gap: 40px;
 
 }
-.navbar  .top_navbar .left_list li{
+.navbar  .top_navbar .left_list a{
     color: black;
 }
  .navbar .right_list{
@@ -26,27 +31,65 @@
    
 
 }
-.navbar .right_list .search_bar{
+.navbar .right_list input{
     width: 190px;
     background-color: rgb(228, 227, 227);
     border: 1px solid rgb(241, 235, 235);
+    border-radius:10px ;
+    padding:10px ;
+}
+.navbar .right_list a {
+    margin-top: 10px;
+    color: black;
 }
 .navbar .right_list .bagicon{
     color: black;
 }
 .navbar .bottom_navbar{
     align-items: center;
-    height: 50px;
+    height: 70px;
     background-color: white;
 }
 .navbar .bottom_navbar .bottom_list{
     display: flex;
     padding-top: 15px;
-    gap: 80px;
+    gap: 85px;
     font-size:large;
    
     
 }
-.bottom_list li{
+.bottom_list a{
     color: black;
+}
+/* navbar css end here */
+.first_page{
+    display: flex;
+    justify-content: space-between;
+
+}
+.first_page  img{
+height: 550px;
+}
+.divsec2-1 img{
+    width: 500px;
+}
+.divsec2-2 img{
+    width: 500px;
+}
+.divsec2-3 img{
+    width: 500px;
+}
+/* first section end here */
+.second_page h3{
+    margin-top: 60px;
+    margin-left: 700px;
+    margin-bottom: 30px;
+
+}
+.second_div {
+    display: flex;
+    justify-content: space-between;
+}
+.second_div img{
+    width: 300px;
 }

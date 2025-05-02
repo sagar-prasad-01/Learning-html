@@ -20,7 +20,33 @@ body{
     padding: 10px;
     border-radius: 10px;
 }
-
 .nav label{
     display: none;
+}
+#click{
+    display: none;
+}
+
+
+
+#click:checked~ .nav ul{
+    display: block;
+}
+@media  screen and (max-width:650px) {
+    .nav label{
+        display: block;
+    }
+    .nav ul{
+        display: none;
+        position: absolute;
+        top: 60px;
+        background-color: aqua;
+        width: 100%;
+    }
+    .nav ul li{
+        padding: 20px;
+    }
+    
+
+    
 }
