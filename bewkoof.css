@@ -17,6 +17,11 @@
     
 
 }
+.navbar .top_navbar a img{
+    width: 150px;
+    margin-left: 120px;
+
+}
  .navbar  .top_navbar .left_list{
     display: flex;  
   gap: 40px;
@@ -28,6 +33,7 @@
  .navbar .right_list{
     display: flex;
     gap: 30px;
+    margin-right: 60px;
    
 
 }
@@ -92,4 +98,56 @@ height: 550px;
 }
 .second_div img{
     width: 300px;
+}
+/* second section end here */
+
+/* third section start here */
+.section3 h3{
+margin-left: 700px;
+margin-top: 110px;
+margin-bottom: 20px;
+
+}
+.section3 .divsec3_1{
+    display: flex;
+}
+.section3 .divsec3_1 img{
+    width: 252.2px;
+    margin-bottom: 15px;
+}
+.section3 .divsec3_2{
+    display: flex;
+}
+.section3 .divsec3_2 img{
+width: 252.2px;
+}
+/* third section end here */
+.section4 h3{
+margin-left: 700px;
+margin-top: 110px;
+margin-bottom: 20px;
+
+}
+.section4 .divsec4_1{
+    display: flex;
+}
+.section4 .divsec4_2{
+    display: flex;
+}
+.section4 .divsec4_1 img{
+    width: 252.2px;
+    margin-bottom: 15px;
+}
+.section4 .divsec4_2 img{
+    width: 252.2px;
+    margin-bottom: 15px;
+}
+.section4 .divsec4_3{
+    display: flex;
+    margin-left: 252.2px;
+}
+.section4 .divsec4_3 img{
+    width: 252.2px;
+
+    
 }
