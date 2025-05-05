@@ -1,0 +1,7 @@
+.bg{
+    background-image: url(images/images.png);
+    height: 300px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
