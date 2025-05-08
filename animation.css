@@ -5,10 +5,10 @@
     background-color: tomato;
     position: relative;
     animation-duration: 2s;
-    animation-name:slide  ;
+    animation-name:rotate  ;
     animation-iteration-count: infinite;
 }
-@keyframes slide{
+@keyframes rotate{
  to{
 0%: 0;
 left: 0;
